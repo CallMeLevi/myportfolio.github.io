@@ -1,0 +1,78 @@
+body {
+  background-color: #f2f2f2;
+  font-family: "poppins";
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+}
+
+.container .nav-container {
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0;
+}
+
+.container .nav-container a.logo {
+  text-decoration: none;
+  font-size: 1.3em;
+  font-weight: bold;
+  color: black;
+  padding-top: .2em;
+}
+
+.container .nav-container a.logo span {
+  color: #0041f5;
+}
+
+.container .nav-container img.hamburger-menu {
+  height: 1.6em;
+  padding-top: .4em;
+}
+
+.container .nav-container nav {
+  display: none;
+}
+
+.container .nav-container nav img {
+  height: 2.4em;
+  width: 2.6em;
+}
+
+.container .hero-section p {
+  text-transform: uppercase;
+  padding-top: 4em;
+  letter-spacing: .3em;
+}
+
+.container .hero-section button {
+  background-color: #0041f5;
+  padding: 1em 2em;
+  border-radius: 50px;
+  color: white;
+  font-weight: bold;
+}
+
+.container .hero-section .hero-cta {
+  padding: 1em;
+  display: block;
+}
+
+.container .hero-section .hero-cta .cam-image {
+  height: 2em;
+}
+
+.container .hero-section .dummy-content-image {
+  height: 20em;
+}
+
+.container .hero-section a {
+  text-decoration: none;
+}
+/*# sourceMappingURL=main.css.map */

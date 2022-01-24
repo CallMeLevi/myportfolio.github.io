@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blackjack game alt</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body >
+    <div class="container-1">
+        <h2>BLACK<span class="game-jack">JACK</span> <span class="game-game">GAME!</span></h2>
+        <p>Let's play!</p>
+    </div>
+
+    <div class="container-2">
+        <div class="player1-box" id="player1-box">
+            <h3><span id="your-name">Player 1</span></span>: <span id="player1-score">0</span></h3>
+        </div>
+        <div class="player2-box" id="player2-box">
+            <h3>Player 2: <span id="player2-score">0</span></h3>
+        </div>
+    </div>
+
+    <div class="container-3">
+        <button class="btn-lg btn-success" id="player1-button" onclick="firstPlayer()">PLAYER1</button>
+        <button class="btn-lg btn-info" id="player2-button" onclick="secondPlayer()">PLAYER2</button>
+        <button class="btn-lg btn-danger" id="deal-button" onclick="winnerDecision()">DEAL</button>
+    </div>
+    
+    <div class="container-4">
+        <table class="scoreboard">
+            <tr>
+                <th>PLAYER 1</th>
+                <th>DRAWS</th>
+                <th>PLAYER 2</th>
+            </tr>
+            <tr>
+                <td><span id="p1wins">0</span></td>
+                <td><span id="draws">0</span></td>
+                <td><span id="p2wins">0</span></td>
+            </tr>
+            
+        </table>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
