@@ -1,3 +1,4 @@
+alert("Both players are to take turns playing. The player that ends up closest to 21 wins. Click 'Deal' when you are done taking turns. Have fun!");
 let gameData = {
     "player1":{"div":"#player1-box", "score":0, "playerscore":"#player1-score", "winstatus":0},
     "player2":{"div":"#player2-box", "score":0, "playerscore":"#player2-score", "winstatus":0},
